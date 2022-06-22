@@ -9,7 +9,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 
 import './styles/global.scss'
-import { Search } from './components/Search';
+
 
 function App() {
   return (
