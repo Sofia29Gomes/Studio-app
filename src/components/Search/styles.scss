@@ -1,0 +1,40 @@
+.search{
+    background: transparent;
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+
+    &-results{
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    
+    &-form{
+
+        input{
+            background-color: #6a50b0;
+            padding: .5rem;
+            border: none;
+            height: 1.5rem;
+            width: 13rem;
+            color: inherit;
+            &::placeholder{
+                color: inherit;
+            }
+            
+            @media (max-width: 577px){
+                width: 9rem;
+                height: 2rem;
+                font-size: 15px;
+            }
+        }
+    }
+
+    @media (max-width: 577px){
+        margin-bottom: .5rem;
+        padding-bottom: 1rem;
+        align-items: center;
+    }
+}
