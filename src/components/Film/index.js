@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 import './styles.scss'
 
-export function Film({id, image, title, subtitle, date}){
+export function Film({id, image, title, subtitle}){
     return(
         <article className="card">
             <Link to={`film/${id}`}>

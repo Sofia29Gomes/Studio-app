@@ -1,4 +1,4 @@
-import { Icon } from '@iconify/react';
+
 
 import './styles.scss'
 
@@ -8,10 +8,10 @@ export function Footer(){
             <div className="footer">
                 <div className="icons">
                     <a href="https://www.facebook.com/GhibliUSA/" target="blank">
-                        <Icon icon="tabler:brand-facebook" color="white" />
+                        icon
                     </a>
                     <a href="https://www.instagram.com/ghibliusa/" target="blank">
-                        <Icon icon="tabler:brand-instagram" color="white" />
+                        icon
                     </a>
                 </div>
             </div>
